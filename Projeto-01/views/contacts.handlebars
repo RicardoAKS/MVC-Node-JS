@@ -1,4 +1,4 @@
-<div class="container py-5">
+<div class="container py-5 mb-5">
 	<table class="table table-striped tableContacts">
 		<thead>
 			<tr>
@@ -6,7 +6,6 @@
 				<th scope="col">Nome</th>
 				<th scope="col">Email</th>
 				<th scope="col">Telefone</th>
-                <th scope="col">Mensagem</th>
                 <th scope="col"></th>
                 <th scope="col"></th>
 			</tr>
@@ -18,7 +17,6 @@
 				<td>{{dataValues.name}}</td>
 				<td>{{dataValues.email}}</td>
                 <td>{{dataValues.phone}}</td>
-                <td>{{dataValues.message}}</td>
 				<td>
 					<a href="/delete/{{dataValues.id}}" class="btn btn-danger">Remover</a>
 					<a href="/contato/{{dataValues.id}}" class="btn btn-primary">Alterar</a>
