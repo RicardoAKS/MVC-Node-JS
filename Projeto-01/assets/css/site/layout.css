@@ -1,0 +1,66 @@
+header{
+	background-color: darkcyan;
+	min-height: 53.64px;
+}
+
+.tableContacts{
+	margin: 75px 0;
+}
+
+header .logo img{
+	width: 40px;
+	margin-top: -8px;
+}
+
+header a{
+	padding: 15px;
+}
+
+header a:hover{
+	text-decoration: none;
+}
+
+header .links a:hover{
+	background-color: teal;
+}
+
+footer{
+	background-color: teal;
+}
+
+footer .fab{
+	font-size: 40px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+/*	Responsivo */
+@media (max-width: 767px){
+	header .hamburguer{
+		display: block!important;
+	}
+
+	header .hamburguer img{
+		width: 50px;
+	}
+
+	header .links{
+		display: none;
+		padding-top: 2.5rem; 
+	}
+
+	header .links a{
+		text-align: right;
+		width: 100%;
+		float: none!important;
+	}
+
+	footer .link-responsive{
+		text-align: center!important;
+		margin-bottom: 30px;
+	}
+
+	footer .link-responsive a{
+		margin-left: 0!important;
+	}
+}
